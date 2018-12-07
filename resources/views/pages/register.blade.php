@@ -28,6 +28,7 @@
             <div class="col-md-3"></div>
             <div class="col-md-6">
                 <h2>Register New User</h2>
+                <p>If you don't have any account, then register here : </p>
                 <hr>
             </div>
         </div>
