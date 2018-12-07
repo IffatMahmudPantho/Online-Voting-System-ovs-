@@ -34,7 +34,7 @@
         </div>
         <div class="row">
             <div class="col-md-3 field-label-responsive">
-                <label for="Firstname">First Name</label>
+                <label for="Firstname">First Name :</label>
             </div>
             <div class="col-md-6">
                 <div class="form-group">
@@ -57,7 +57,7 @@
 
         <div class="row">
             <div class="col-md-3 field-label-responsive">
-                <label for="Lastname">Last Name</label>
+                <label for="Lastname">Last Name : </label>
             </div>
             <div class="col-md-6">
                 <div class="form-group">
@@ -82,7 +82,7 @@
 
         <div class="row">
             <div class="col-md-3 field-label-responsive">
-                <label for="Username">Username</label>
+                <label for="Username">Username : </label>
             </div>
             <div class="col-md-6">
                 <div class="form-group">
@@ -106,7 +106,7 @@
 
         <div class="row">
             <div class="col-md-3 field-label-responsive">
-                <label for="age">Age</label>
+                <label for="age">Age : </label>
             </div>
             <div class="col-md-6">
                 <div class="form-group">
@@ -130,7 +130,7 @@
 
         <div class="row">
             <div class="col-md-3 field-label-responsive">
-                <label for="email">E-Mail Address</label>
+                <label for="email">E-Mail Address : </label>
             </div>
             <div class="col-md-6">
                 <div class="form-group">
@@ -151,7 +151,7 @@
         </div>
         <div class="row">
             <div class="col-md-3 field-label-responsive">
-                <label for="password">Password</label>
+                <label for="password">Password : </label>
             </div>
             <div class="col-md-6">
                 <div class="form-group has-danger">
@@ -172,7 +172,7 @@
         </div>
         <div class="row">
             <div class="col-md-3 field-label-responsive">
-                <label for="password">Confirm Password</label>
+                <label for="password">Confirm Password : </label>
             </div>
             <div class="col-md-6">
                 <div class="form-group">
