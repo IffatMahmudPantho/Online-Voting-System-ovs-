@@ -3,8 +3,6 @@
 @section('content')
 <h1>{{$title}}</h1>
     
-
-
 <!-- Bootstrap core CSS -->
 <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
 
@@ -29,8 +27,3 @@
   
 </form>
 @endsection
-
-
-
-
-
