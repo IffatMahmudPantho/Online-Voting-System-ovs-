@@ -14,3 +14,5 @@
 Route::get('/', 'PagesController@index');
 Route::get('/register', 'PagesController@register');
 Route::get('/login', 'PagesController@login');
+Route::get('/admin.ovs', 'PagesController@admin');
+Route::get('/user.ovs', 'PagesController@user');

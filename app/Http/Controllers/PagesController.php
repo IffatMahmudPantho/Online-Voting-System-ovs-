@@ -21,4 +21,12 @@ class PagesController extends Controller
         );
         return view('pages.login')->with($data);
     }
+    public function admin(){
+        $title = 'Admin page here';
+        return view('pages.admin')->with('title',$title);
+    }
+    public function user(){
+        $title = 'User page';
+        return view('pages.user')->with('title',$title);
+    }
 }
