@@ -17,3 +17,7 @@ Route::get('/login', 'PagesController@login');
 Route::get('/admin.ovs', 'PagesController@admin');
 Route::get('/user.ovs', 'PagesController@user');
 Route::get('/createNewElection', 'PagesController@createNewElection');
+Route::get('/adminLogin', 'PagesController@adminLogin');
+
+
+

@@ -33,4 +33,8 @@ class PagesController extends Controller
         $title = 'START NEW ELECTION ';
         return view('pages.createNewElection')->with('title',$title);
     }
+    public function adminLogin(){
+        $title = 'Login Only For Admin ';
+        return view('pages.adminLogin')->with('title',$title);
+    }
 }

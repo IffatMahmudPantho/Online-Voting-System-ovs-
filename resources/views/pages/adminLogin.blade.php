@@ -14,7 +14,7 @@
 <body class="text-center">
 <form class="form-signin">
   <img class="mb-4" src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
-  <h1 class="h3 mb-3 font-weight-normal">Please log in here : </h1>
+  <h1 class="h4 mb-3 font-weight-normal">if you are an Admin then, <br>Please log in here : </h1>
   <label for="username" class="sr-only">Username</label>
   <input type="username" id="inputUsername" class="form-control" placeholder="Username" required autofocus>
   <label for="inputPassword" class="sr-only">Password</label>
@@ -26,7 +26,8 @@
   </div>
 
 
-  <button class="btn btn-lg btn-primary btn-block" type="submit">login</button>
+ 
+ <a href="/admin.ovs" class="btn btn-primary btn-block" type="submit ">Login</a>
   
 </form>
 @endsection
