@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed top">
+<nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
 
         <a class="navbar-brand" href="/">Online Voting System</a>
        
@@ -16,8 +16,15 @@
             <li class="nav-item">
               <a class="nav-link" href="/register">Register</a>
             </li>
+            <li class="nav-item">
+               
+                <a class="nav-link " href="/admin.ovs">Admin</a>
+              
+              </li>
+
             
-        </ul>
+
+          </ul>
          
           
 

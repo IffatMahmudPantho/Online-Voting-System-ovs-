@@ -22,12 +22,15 @@ class PagesController extends Controller
         return view('pages.login')->with($data);
     }
     public function admin(){
-        $title = 'Admin page here';
+        $title = 'Admin Pannel';
         return view('pages.admin')->with('title',$title);
     }
     public function user(){
-        $title = 'User page';
+        $title = 'User';
         return view('pages.user')->with('title',$title);
     }
-    
+    public function createNewElection(){
+        $title = 'START NEW ELECTION ';
+        return view('pages.createNewElection')->with('title',$title);
+    }
 }
