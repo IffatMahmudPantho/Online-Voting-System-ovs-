@@ -29,4 +29,5 @@ class PagesController extends Controller
         $title = 'User page';
         return view('pages.user')->with('title',$title);
     }
+    
 }
