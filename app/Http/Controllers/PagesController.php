@@ -37,4 +37,12 @@ class PagesController extends Controller
         $title = 'Login Only For Admin ';
         return view('pages.adminLogin')->with('title',$title);
     }
+    public function successElection(){
+        $title = 'New Election Created Successfully!!!!!';
+        return view('pages.successElection')->with('title',$title);
+    }
+    public function successVote(){
+        $title = 'Your vote has been submitted. You have 0 votes left for this election';
+        return view('pages.successVote')->with('title',$title);
+    }
 }

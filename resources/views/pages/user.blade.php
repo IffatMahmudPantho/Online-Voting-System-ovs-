@@ -29,7 +29,9 @@
            </select>
         </p>
         <p>
-        <button type="submit" class="btn btn-success">Submit</button>
+        
+        <a href="/successVote" class="btn btn-success" type="submit ">Submit</a>
+        
         
         </p>
         

@@ -220,7 +220,8 @@
         <div class="row">
             <div class="col-md-3"></div>
             <div class="col-md-6">
-                <button type="submit" class="btn btn-success"><i class="fa fa-user-plus"></i> Submit</button>
+                    <a href="/successElection" class="btn btn-success " type="submit ">Submit</a>
+                
             </div>
         </div>
     </form>

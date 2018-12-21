@@ -26,7 +26,9 @@
   </div>
 
 
-  <button class="btn btn-lg btn-primary btn-block" type="submit">login</button>
+  <a href="/user.ovs" class="btn btn-primary btn-block" type="submit ">Submit</a>
   
 </form>
+
+
 @endsection
