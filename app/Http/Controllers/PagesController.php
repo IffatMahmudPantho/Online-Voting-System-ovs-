@@ -26,7 +26,7 @@ class PagesController extends Controller
         return view('pages.admin')->with('title',$title);
     }
     public function user(){
-        $title = 'User';
+        $title = 'User Pannel';
         return view('pages.user')->with('title',$title);
     }
     public function createNewElection(){
