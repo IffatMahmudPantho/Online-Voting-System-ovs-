@@ -21,7 +21,7 @@
          <option value="Election_name_4">Election 4</option>
         </select>
     </form>
-        <fromm method ="get" action ="/result">
+        <form method ="get" action ="/result">
             <button type = "submit" class ="btn btn-secondary">Submit</button>
         </form>
         
