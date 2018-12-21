@@ -12,6 +12,42 @@
     <body>
         @include('inc.navbar')
         <div class = " container">
-             @yield('content')
+                @yield('content')
+
+
+            
+            <h6 align ="right">
+                
+                <script type="text/javascript">
+                    function startTime()
+                    {
+                    var today=new Date();
+                    var h=today.getHours();
+                    var m=today.getMinutes();
+                    var s=today.getSeconds();
+                    
+                    m=checkTime(m);
+                    s=checkTime(s);
+                    document.getElementById('txt').innerHTML="Current Server Time : "+h+":"+m+":"+s;
+                    t=setTimeout('startTime()',500);
+                    }
+                    function checkTime(i)
+                    {
+                    if (i<10)
+                    {
+                    i="0" + i;
+                    }
+                    return i;
+                    }
+                    </script>
+                    </head>
+                    <body onload="startTime()">
+                    <div id="txt"></div>
+                    </h6>
+           
+
+
+
+
     </body>
 </html>

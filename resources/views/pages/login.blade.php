@@ -26,7 +26,7 @@
   </div>
 
 
-  <a href="/user.ovs" class="btn btn-primary btn-block" type="submit ">Submit</a>
+  <a href="/user.ovs" class="btn btn-primary" type="submit ">Login</a>
   
 </form>
 

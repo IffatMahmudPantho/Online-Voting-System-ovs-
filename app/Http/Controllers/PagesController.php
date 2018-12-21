@@ -45,4 +45,8 @@ class PagesController extends Controller
         $title = 'Your vote has been submitted. You have 0 votes left for this election';
         return view('pages.successVote')->with('title',$title);
     }
+    public function result(){
+        $title = 'Result Section';
+        return view('pages.result')->with('title',$title);
+    }
 }
