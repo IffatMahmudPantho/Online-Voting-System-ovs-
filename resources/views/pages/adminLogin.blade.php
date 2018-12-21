@@ -27,7 +27,10 @@
 
 
  
- <a href="/admin.ovs" class="btn btn-primary btn-block" type="submit ">Login</a>
+
+ <form method ="get" action ="/admin.ovs">
+  <button type = "login" class ="btn btn-primary">Login</button>
+</form>
   
 </form>
 @endsection

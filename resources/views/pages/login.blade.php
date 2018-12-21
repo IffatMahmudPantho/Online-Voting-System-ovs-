@@ -26,7 +26,9 @@
   </div>
 
 
-  <a href="/user.ovs" class="btn btn-primary" type="submit ">Login</a>
+  <form method ="get" action ="/user.ovs">
+    <button type = "submit" class ="btn btn-primary">Login</button>
+  </form>
   
 </form>
 

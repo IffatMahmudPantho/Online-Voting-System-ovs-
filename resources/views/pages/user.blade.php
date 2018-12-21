@@ -30,7 +30,9 @@
         </p>
         <p>
         
-        <a href="/successVote" class="btn btn-success" type="submit ">Submit</a>
+            <form method ="get" action ="/successVote">
+                <button type = "submit" class ="btn btn-success">Submit</button>
+              </form>
         
         
         </p>

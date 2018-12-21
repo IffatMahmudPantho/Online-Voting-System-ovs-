@@ -220,7 +220,9 @@
         <div class="row">
             <div class="col-md-3"></div>
             <div class="col-md-6">
-                    <a href="/successElection" class="btn btn-success " type="submit ">Submit</a>
+                <form method ="get" action ="/successElection">
+                    <button type = "submit" class ="btn btn-success">Submit</button>
+                  </form>
                 
             </div>
         </div>

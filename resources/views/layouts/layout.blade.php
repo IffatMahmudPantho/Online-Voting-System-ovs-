@@ -14,7 +14,7 @@
         @include('inc.navbar2')
         <div class = " container">
              @yield('content')
-
+            
 
              <h6 align ="right">
                 

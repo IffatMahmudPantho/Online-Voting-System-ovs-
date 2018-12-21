@@ -191,7 +191,9 @@
         <div class="row">
             <div class="col-md-3"></div>
             <div class="col-md-6">
-                    <a href="/login" class="btn btn-success" type="submit ">Register</a>
+                <form method ="get" action ="/register">
+                    <button type = "submit" class ="btn btn-success">Register</button>
+                  </form>
             </div>
         </div>
     </form>

@@ -20,7 +20,10 @@
          <option value="Election_name_3">Election 3</option>
          <option value="Election_name_4">Election 4</option>
         </select>
-        <button type="submit" class="btn btn">Submit</button>
+    </form>
+        <form method ="get" action ="/result">
+            <button type = "submit" class ="btn btn-secondary">Submit</button>
+          </form>
         
         </p>
         
@@ -29,7 +32,7 @@
         </p>
 
         
-</form>
+
 
 
 
