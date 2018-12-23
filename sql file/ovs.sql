@@ -25,7 +25,7 @@ $query="CREATE TABLE user_registration (
 )";
 	if(mysqli_query($con,$query)) echo "user_registration Table Created<br/>";
 	else echo mysqli_error($con);
-	$query="INSERT INTO `user_registration` VALUES ( 'hassanul', 'banna','akib', '26', 'hassanul.banna@northsouth', '321', '321' )";
+	$query="INSERT INTO `user_registration` VALUES ( 'hassanul', 'banna','akib', '26', 'hassanul.banna@northsouth.edu', '321', '321' )";
 	if(mysqli_query($con,$query)) echo "Admin Created<br/>";
 	else echo mysqli_error($con);
 
