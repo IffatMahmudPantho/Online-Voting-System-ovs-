@@ -12,7 +12,7 @@ session_start();
   else{
     $row=mysqli_fetch_array($result, MYSQLI_ASSOC);
     $dbpassword=$row['Password'];
-    $admin="armanshatu@yahoo.com";
+    $admin="hassanul.banna@nothsouth.edu";
       if($email==$admin){
         if($Password==$dbpassword){
       $_SESSION['Email']=$Email;
